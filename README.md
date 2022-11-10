@@ -1,7 +1,7 @@
 # qllwx-fonts
 ## 直接使用 
 ### 下载TTF
-- [qllwx-font1](fonts/qllwx-font1.ttf)
+- [qllwx-font1](https://github.com/qllwx/qllwx-fonts/raw/main/fonts/qllwx_font1.ttf)
 ### 在系统安装字体
 - windows [add font](https://support.microsoft.com/en-us/office/add-a-font-b7c5f17c-4426-4b53-967f-455339c564c1)
 
