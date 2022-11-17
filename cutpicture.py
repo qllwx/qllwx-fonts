@@ -4,7 +4,7 @@ from pathlib import Path
 
 def get_image_files(path=None):
     if path is None:
-        path = Path('D:/Pictures/font1')
+        path = Path('./pictures/scanf/')
     result = [ f for f in path.glob('*.jpg') ]
     return result
 
@@ -30,7 +30,7 @@ def cut_all_images(files):
 
 def save_images(images):
     for index,img in enumerate(images):
-        fn=Path('.','cut',str(index)+'.jpg')
+        fn=Path('.','pictures','cut',str(index)+'.jpg')
         print(fn)
         img.save(fn)
 
